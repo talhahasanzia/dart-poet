@@ -15,9 +15,14 @@ The following words have the highest word frequency per line:
 - ["word2", "word3"] (appears in line #)
 
 ## Solution
-- `Analyzer` class starts reading from file and analyzing lines, get frequency of lines and get maximum frequent word in whole file
+- `Analyzer`[source](https://github.com/talhahasanzia/dart-poet/blob/master/bin/Analyzer.dart) class starts reading from file and analyzing lines, get frequency of lines and get maximum frequent word in whole file
 - `Line` class breaks the line into words and provides their frequency
 - `Word` class to hold word and their frequency data
 
+## License
+### Dart
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+### This project
+Apache 2.0 
