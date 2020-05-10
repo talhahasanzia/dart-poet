@@ -3,12 +3,16 @@ A next generation text analyzer that counts the words in a sentence. Written in 
 
 ## Assignment
 Read text from a file and find words that appear most in a line in the file. 
-(i) finding the highest frequency word(s) in each line 
-(ii) finding lines in the file whose "highest frequency words" is the greatest value among all lines. 
+
+- (i) finding the highest frequency word(s) in each line 
+- (ii) finding lines in the file whose "highest frequency words" is the greatest value among all lines. 
+
 Print the result in the following format: 
+
 The following words have the highest word frequency per line:
-["word1"] (appears in line #)
-["word2", "word3"] (appears in line #)
+
+- ["word1"] (appears in line #)
+- ["word2", "word3"] (appears in line #)
 
 ## Solution
 - `Analyzer` class starts reading from file and analyzing lines, get frequency of lines and get maximum frequent word in whole file
